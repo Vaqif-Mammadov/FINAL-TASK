@@ -1,0 +1,271 @@
+/* contact */
+.contact-header {
+  background-image: url("/media/contact/Contact-Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 510px;
+  flex-shrink: 0;
+}
+
+.bg-image-text p {
+  width: 40%;
+  height: 57px;
+  flex-shrink: 0;
+  margin-left: 5%;
+  margin-top: 1%;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+}
+
+.bg-image-text h1 {
+  color: #fff;
+  font-family: Merriweather;
+  margin-top: 11%;
+  margin-left: 5%;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* lets something together */
+.contact-top {
+  width: 100%;
+  height: 100vh;
+}
+
+.contact-top-blue {
+  width: 100%;
+  height: 50vh;
+  flex-shrink: 0;
+  background-color: #16133e;
+  position: relative;
+}
+
+.contact-top-blue h2 {
+  width: 50%;
+  height: 45px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-top: 7%;
+  margin-left: 25%;
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+
+.contact-top-White {
+  width: 100%;
+  height: 50vh;
+  flex-shrink: 0;
+  background-color: #fff;
+}
+
+.contact-top-white-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  gap: 5%;
+}
+
+.contact-top-white-card {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(22, 35, 54, 0.1);
+  width: 25%;
+  height: 298px;
+  margin-top: -7.4%;
+  padding-left: 3%;
+  padding-top: 4%;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 5%;
+  z-index: 1;
+}
+
+.contact-top-white-card i {
+  width: 10%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #f53b30;
+  font-family: orion-font;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-top-white-card h6 {
+  width: 30%;
+  height: 25px;
+  flex-shrink: 0;
+  color: #16133e;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+
+.contact-top-white-card p {
+  width: 95%;
+  height: 24px;
+  flex-shrink: 0;
+  color: #636a75;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.contact-top-white-empty {
+  width: 100%;
+  height: 123px;
+  background-color: #fff;
+}
+
+/* send us message */
+.contact-middle {
+  width: 100%;
+  height: 100vh;
+  flex-shrink: 0;
+  background-color: #f7f8fa;
+  /* margin: auto; */
+}
+
+.contact-middle-send {
+  margin-top: 7%;
+}
+
+.contact-middle-send h2 {
+  width: 30%;
+  height: 34px;
+  flex-shrink: 0;
+  margin: auto;
+  text-align: center;
+  color: #16133e;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px; /* 133.333% */
+}
+
+.contact-middle-form form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 4%;
+}
+
+#name {
+  width: 35%;
+  height: 56px;
+  flex-shrink: 0;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  border: 2px solid #f53b30;
+}
+
+#email {
+  width: 35%;
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+#website {
+  width: 35%;
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 1%;
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+
+#message {
+  width: 35%;
+  height: 148px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 8%;
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+
+.contact-middle-chec-lab {
+  display: flex;
+  justify-content: baseline;
+  width: 35%;
+  height: 56px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 1%;
+  gap: 1%;
+}
+
+.contact-middle-checkbox {
+  width: 4%;
+}
+
+.contact-middle-label {
+  width: 96%;
+}
+
+.contact-middle-button {
+  margin-top: 1%;
+  text-align: center;
+}
+
+#contact-send-message {
+  width: 35%;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: none;
+  background-color: #f53b30;
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 45px; /* 250% */
+}
+/* map and footer */
+.contact-footer-top {
+  width: 100%;
+  height: 50vh;
+  flex-shrink: 0;
+}
+
+.contact-footer-top iframe{
+    width: 100%;
+  height: 50vh;
+  flex-shrink: 0;
+  margin-top: 11%;
+
+}
+ 
