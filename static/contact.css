@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
+  width: 1260px;
   height: 510px;
   flex-shrink: 0;
 }
@@ -36,13 +36,13 @@
 
 /* lets something together */
 .contact-top {
-  width: 100%;
-  height: 100vh;
+  width: 1260px;
+  height: 700px;
 }
 
 .contact-top-blue {
-  width: 100%;
-  height: 50vh;
+  width: 1260px;
+  height: 350px;
   flex-shrink: 0;
   background-color: #16133e;
   position: relative;
@@ -65,8 +65,8 @@
 }
 
 .contact-top-White {
-  width: 100%;
-  height: 50vh;
+  width: 1260px;
+  height: 350px;
   flex-shrink: 0;
   background-color: #fff;
 }
@@ -82,7 +82,7 @@
 .contact-top-white-card {
   background-color: #fff;
   box-shadow: 0px 3px 5px 0px rgba(22, 35, 54, 0.1);
-  width: 25%;
+  width: 315px;
   height: 298px;
   margin-top: -7.4%;
   padding-left: 3%;
@@ -107,7 +107,7 @@
 }
 
 .contact-top-white-card h6 {
-  width: 30%;
+  width: 300px;
   height: 25px;
   flex-shrink: 0;
   color: #16133e;
@@ -119,34 +119,30 @@
 }
 
 .contact-top-white-card p {
-  width: 95%;
+  width: 300px;
   height: 24px;
   flex-shrink: 0;
   color: #636a75;
   font-family: Barlow;
-  font-size: 16px;
+  font-size: 15px;
   font-style: normal;
   font-weight: 400;
   line-height: 28px; /* 175% */
 }
 
 .contact-top-white-empty {
-  width: 100%;
+  width: 1260px;
   height: 123px;
   background-color: #fff;
 }
 
 /* send us message */
 .contact-middle {
-  width: 100%;
-  height: 100vh;
+  width: 1260px;
+  height: 700px;
   flex-shrink: 0;
   background-color: #f7f8fa;
   /* margin: auto; */
-}
-
-.contact-middle-send {
-  margin-top: 7%;
 }
 
 .contact-middle-send h2 {
@@ -254,18 +250,10 @@
   font-weight: 700;
   line-height: 45px; /* 250% */
 }
-/* map and footer */
-.contact-footer-top {
-  width: 100%;
-  height: 50vh;
-  flex-shrink: 0;
-}
 
-.contact-footer-top iframe{
-    width: 100%;
-  height: 50vh;
+.contact-footer-top iframe {
+  width: 1260px;
+  height: 350px;
   flex-shrink: 0;
   margin-top: 11%;
-
 }
- 

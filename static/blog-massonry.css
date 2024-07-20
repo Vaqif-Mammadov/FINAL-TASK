@@ -1,0 +1,208 @@
+/* HEADER */
+
+.nabvar-middle i {
+  display: none;
+}
+
+.bm-header {
+  background-image: url("/media/blog-massonry/blog-massonry-head-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  max-width: 1440px;
+  height: 510px;
+  flex-shrink: 0;
+}
+
+/* CARDS */
+
+.bm-cards {
+  width: 100%;
+  max-width: 1260px;
+  height: 1599px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.bm-card {
+  width: 27%;
+  max-width: 380px;
+  margin: 40px -12px;
+  height: 495px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 22px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.bm-card img {
+  width: 100%;
+  max-width: 380px;
+  height: 228px;
+}
+
+.bm-img {
+  width: 100%;
+  max-width: 380px;
+  height: 228px;
+  flex-shrink: 0;
+}
+
+.bm-card-img-txt {
+  width: 100%;
+  max-width: 152px;
+  height: 28px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: absolute;
+  z-index: 10;
+  left: 1em;
+  top: 1em;
+}
+
+.bm-card-img-txt span {
+  width: 50%;
+  max-width: 56px;
+  height: 28px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+  border-radius: 5px;
+  background-color: rgba(22, 19, 62, 0.36);
+}
+
+/* #finance {
+display: none;
+} */
+
+.bm-card-info {
+  width: 100%;
+  max-width: 380px;
+  height: 100px;
+  flex-shrink: 0;
+}
+
+.bm-card-info h3 {
+  color: #16133e;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.bm-card-user {
+  width: 100%;
+  max-width: 285px;
+  height: 17px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.bm-card-user i {
+  width: 20%;
+  max-width: 21px;
+  height: 21px;
+  flex-shrink: 0;
+  border-radius: 21px;
+  background-color: #c4c4c4;
+}
+
+.bm-card-user img {
+  width: 100%;
+  max-width: 21px;
+  height: 21px;
+}
+
+.bm-card-user h6 {
+  color: #f53b30;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.bm-card-user h5 {
+  color: #717d8f;
+  font-family: Barlow;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.bm-card-comment {
+  width: 100%;
+  max-width: 380px;
+  height: 73px;
+  flex-shrink: 0;
+}
+
+.bm-card-comment p {
+  color: #636a75;
+  font-family: Barlow;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+/* SLIDER */
+
+.bm-slider {
+  width: 87.5%;
+  max-width: 1260px;
+  height: 100px;
+  margin-top: 180px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bm-slider ul {
+  width: 100%;
+  max-width: 232px;
+  height: 40px;
+  margin-left: 90px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.bm-slider ul li {
+  width: 100%;
+  max-width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: 1px solid #e7ecf2;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.bm-slider ul li:hover {
+  background-color: red;
+}
+/* FOOTER */
