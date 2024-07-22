@@ -1,38 +1,276 @@
+/* ABOUT */
 
 
 
+
+
+
+
+
+/* ------------------------------------------------------------------------------------------------------------ */
 /* CONTACT */
+/* contact */
+.contact-header {
+  background-image: url("/media/contact/Contact-Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%; /*deyis */
+  max-width: 768px;  /*deyis */
+  height: 300px;
+  flex-shrink: 0;
+}
 
 
+/* lets something together */
+.contact-top {
+  width: 100%;  /*deyis */
+  max-width: 768px;  /*deyis */
+  height: 1200px;   /*deyis */
+}
 
+.contact-top-blue {
+  width: 100%;  /*deyis */
+  max-width: 768px;  /*deyis */
+  height: 350px;
+  flex-shrink: 0;
+  background-color: #16133e;
+  position: relative;
+}
 
+.contact-top-blue h2 {
+  width: 50%; /*deyis */
+  max-width: 384px; /*deyis */
+  height: 45px;
+  flex-shrink: 0;
+  position: absolute;
+  margin-top: 13%;   /*deyis */
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 1.5rem;  /*deyis */
+  font-style: normal;
+  font-weight: 500;   /*deyis */
+  line-height: normal;  /*deyis */
+}
 
+.contact-top-White {
+  width: 100%;  /*deyis */
+  max-width: 768px;  /*deyis */
+  height: 600px;  /*deyis */
+  flex-shrink: 0;
+  background-color: #fff;
+}
 
+.contact-top-white-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  flex-wrap: wrap;
+  margin-top: -18%;
+}
 
+.contact-top-white-card {
+  background-color: #fff;
+  box-shadow: 0px 3px 5px 0px rgba(22, 35, 54, 0.1);
+  width: 50%; /*deyis */
+  max-width: 768px; /*deyis */
+  height: 298px;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+  margin-top: 5%;   /*deyis */
+}
 
+.contact-top-white-card i {
+  width: 10%;
+  height: 72px;
+  flex-shrink: 0;
+  color: #f53b30;
+  font-family: orion-font;
+  font-size: 4rem;  /*deyis */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-top-white-card h6 {
+  width: 300px;
+  height: 25px;
+  flex-shrink: 0;
+  color: #16133e;
+  font-family: Merriweather;
+  font-size: 1rem;  /*deyis */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-top-white-card p {
+  width: 300px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #636a75;
+  font-family: Barlow;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.contact-top-white-empty {
+  width: 100%; /*deyis */
+  max-width: 768px; /*deyis */
+  height: 123px;
+  background-color: #fff;
+}
+
+/* send us message */
+.contact-middle {
+  width: 100%; /*deyis */
+  max-width: 768px; /*deyis */
+  height: 500px;    /*deyis */
+  flex-shrink: 0;
+  background-color: #f7f8fa;
+}
+
+.contact-middle-send h2 {
+  width: 50%;   /*deyis */
+  max-width: 384px;
+  height: 34px;
+  flex-shrink: 0;
+  margin-top: 22%;   /*deyis */
+  text-align: center;
+  color: #16133e;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 1.5rem;  /*deyis */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-middle-form form {
+  width: 100%;
+  max-width: 768px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;   /*deyis */
+}
+
+#name {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 56px;
+  flex-shrink: 0;
+  padding-left: 1%;
+  padding-bottom: 2%;   /*deyis */
+  border: 2px solid #f53b30;
+}
+
+#email {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 2%;   /*deyis */
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+#website {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 56px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 2%;   /*deyis */
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+
+#message {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 148px;
+  flex-shrink: 0;
+  margin-top: 1.5%;
+  padding-left: 1%;
+  padding-bottom: 14%;   /*deyis */
+  border-radius: 3px;
+  border: 1px solid #e7ecf2;
+  background: #fff;
+}
+
+.contact-middle-chec-lab {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 56px;
+  flex-shrink: 0;
+  margin: auto;
+  margin-top: 1%;
+  display: flex;
+  justify-content: baseline;
+  gap: 1%;
+}
+
+.contact-middle-checkbox {
+  width: 4%;
+}
+
+.contact-middle-label {
+  width: 86%;
+}
+
+.contact-middle-button {
+  margin-top: 1%;
+  text-align: center;
+}
+
+#contact-send-message {
+  width: 50%;   /*deyis */
+  max-width: 384px;   /*deyis */
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+  border: none;
+  background-color: #f53b30;
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 1rem;  /*deyis */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.contact-footer-top iframe {
+  width: 100%;   /*deyis */
+  max-width: 768px;   /*deyis */
+  height: 350px;
+  flex-shrink: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
 /* BLOG-MASSONRY */
-
 /* HEADER */
-.bm-header {
-    background-image: url("/media/blog-massonry/blog-massonry-head-bg.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    max-width: 768px; /*deyis*/
-    height: 50vh; /*deyis*/
-    flex-shrink: 0;
-  }
-  .navbar {
-    width: 90%;
-    height: 62px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    gap: 20px;
-    padding-top: 50px;
-  }
+.navbar {
+  width: 90%;
+  height: 62px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  padding-top: 50px;
+}
   
   .navbar-left h3 {
     color: #ffffff;
@@ -78,7 +316,7 @@
     color: #e7ecf2; /*deyis*/
     margin-left: 200%;   /*deyis*/
   }
-
+  
   .navbar-right {
     color: #ffffff;
     display: flex;
@@ -95,6 +333,21 @@
     display: none; /*deyis*/
   }
   
+  .bm-header {
+      background-image: url("/media/blog-massonry/blog-massonry-head-bg.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      max-width: 768px; /*deyis*/
+      height: 50vh; /*deyis*/
+      flex-shrink: 0;
+    }
+    
+    .bg-image-text{
+      width: 90%;
+    }
+
   .bg-image-text p {
     width: 40%;
     height: 57px;
@@ -110,6 +363,7 @@
   }
   
   .bg-image-text h1 {
+    width: 50%;
     color: #fff;
     font-family: Merriweather;
     margin-top: 11%;
@@ -187,10 +441,6 @@
     border-radius: 5px;
     background-color: rgba(22, 19, 62, 0.36);
   }
-  
-  /* #finance {
-  display: none;
-  } */
   
   .bm-card-info {
     width: 100%;
@@ -310,8 +560,6 @@
     background-color: red;
   }
   /* FOOTER */
-  /* footer */
-
 .about-footer {
     width: 100%; /*deyis*/
     max-width: 768px; /*deyis*/
@@ -396,10 +644,11 @@
   
   .about-footer-top-right-middle {
     width: 45%;  /*deyis*/
+    max-width: 345px; 
   }
   
   .about-footer-top-right-middle h4 {
-    width: 100%;
+    width: 100%; 
     height: 18px;
     flex-shrink: 0;
     margin: 50px 0px 32px 0px;
@@ -424,6 +673,7 @@
   }
   .about-footer-top-right-right {
     width: 45%;  /*deyis*/
+    max-width: 345px;    /*deyis */
   }
   
   .about-footer-top-right-right h4 {
@@ -453,7 +703,7 @@
   
   .about-footer-bottom {
     width: 90%; /*deyis*/
-    max-width: 691px; /*deyis*/
+    max-width: 690px; /*deyis*/
     height: auto;  /*deyis*/
     padding-left: 50px;
     display: flex;
@@ -491,7 +741,6 @@
     width: 70%;
     height: 17px;
     flex-shrink: 0;
-    margin-left: 15%;  /*deyis*/
     color: #8b8f95;
     text-align: right;
     font-family: Barlow;
