@@ -12,6 +12,13 @@
   text-decoration: none;
   list-style: none;
 }
+
+.container{
+  width: 1260px;
+  width: 90%;
+  margin: 0 auto;
+}
+
 body{
   background-color: #F7F8FA;
 }
