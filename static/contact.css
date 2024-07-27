@@ -4,100 +4,136 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 1260px;
-  height: 510px;
-  flex-shrink: 0;
+  width: 100%;
+  height: 100vh;
 }
 
-.bg-image-text p {
-  width: 40%;
-  height: 57px;
-  flex-shrink: 0;
-  margin-left: 5%;
-  margin-top: 1%;
+.contact-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding-top: 50px;
+}
+
+.contact-navbar-left h3 {
   color: #fff;
   font-family: Barlow;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px; /* 177.778% */
-}
-
-.bg-image-text h1 {
-  color: #fff;
-  font-family: Merriweather;
-  margin-top: 11%;
-  margin-left: 5%;
-  font-size: 48px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-transform: capitalize;
+}
+
+.contact-navbar-left h6 {
+  color: #e7ecf2;
+  font-family: Barlow;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact-nabvar-middle ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #fff;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 50px;
+}
+
+#burger {
+  display: none;
+}
+
+.contact-navbar-right {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  font-family: Barlow;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  gap: 10px;
+}
+
+.bg-image-text h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 400px;
+  padding-top: 100px;
+}
+
+.bg-image-text p {
+  padding-top: 20px;
+  color: #fff;
+  font-family: Barlow;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 /* lets something together */
-.contact-top {
-  width: 1260px;
-  height: 700px;
-}
 
 .contact-top-blue {
-  width: 1260px;
-  height: 350px;
-  flex-shrink: 0;
   background-color: #16133e;
-  position: relative;
 }
 
 .contact-top-blue h2 {
-  width: 50%;
-  height: 45px;
-  flex-shrink: 0;
-  position: absolute;
-  margin-top: 7%;
-  margin-left: 25%;
+  padding: 120px 0 180px;
   color: #fff;
   text-align: center;
   font-family: Merriweather;
-  font-size: 36px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 133.333% */
+  line-height: 48px;
 }
 
 .contact-top-White {
-  width: 1260px;
-  height: 350px;
-  flex-shrink: 0;
   background-color: #fff;
 }
 
 .contact-top-white-cards {
+  padding-bottom: 110px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #fff;
-  gap: 5%;
+  gap: 70px;
 }
 
 .contact-top-white-card {
+  margin-top: -70px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   background-color: #fff;
   box-shadow: 0px 3px 5px 0px rgba(22, 35, 54, 0.1);
-  width: 315px;
-  height: 298px;
-  margin-top: -7.4%;
-  padding-left: 3%;
-  padding-top: 4%;
   align-content: center;
   display: flex;
   flex-direction: column;
-  gap: 5%;
+  gap: 5px;
   z-index: 1;
 }
 
 .contact-top-white-card i {
-  width: 10%;
-  height: 72px;
-  flex-shrink: 0;
   color: #f53b30;
   font-family: orion-font;
   font-size: 72px;
@@ -107,138 +143,100 @@
 }
 
 .contact-top-white-card h6 {
-  width: 300px;
-  height: 25px;
-  flex-shrink: 0;
   color: #16133e;
   font-family: Merriweather;
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
-  line-height: 28px; /* 140% */
+  line-height: 28px;
 }
 
 .contact-top-white-card p {
   width: 300px;
-  height: 24px;
-  flex-shrink: 0;
   color: #636a75;
   font-family: Barlow;
-  font-size: 15px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px; /* 175% */
-}
-
-.contact-top-white-empty {
-  width: 1260px;
-  height: 123px;
-  background-color: #fff;
+  line-height: 28px;
 }
 
 /* send us message */
 .contact-middle {
-  width: 1260px;
-  height: 700px;
-  flex-shrink: 0;
   background-color: #f7f8fa;
   /* margin: auto; */
 }
 
 .contact-middle-send h2 {
-  width: 30%;
-  height: 34px;
-  flex-shrink: 0;
-  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 60px;
   text-align: center;
   color: #16133e;
   text-align: center;
   font-family: Merriweather;
-  font-size: 36px;
+  font-size: 2rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 48px; /* 133.333% */
+  line-height: 48px;
 }
 
 .contact-middle-form form {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin-top: 4%;
+  gap: 5px;
 }
 
 #name {
-  width: 35%;
-  height: 56px;
-  flex-shrink: 0;
-  padding-left: 1%;
-  padding-bottom: 1%;
+  width: 455px;
+  line-height: 2.5rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
   border: 2px solid #f53b30;
 }
 
 #email {
-  width: 35%;
-  height: 56px;
-  flex-shrink: 0;
-  margin-top: 1.5%;
-  padding-left: 1%;
-  padding-bottom: 1%;
-  border-radius: 3px;
-  border: 1px solid #e7ecf2;
-  background: #fff;
+  width: 455px;
+  line-height: 2.5rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #f53b30;
 }
 #website {
-  width: 35%;
-  height: 56px;
-  flex-shrink: 0;
-  margin-top: 1.5%;
-  padding-left: 1%;
-  padding-bottom: 1%;
-  border-radius: 3px;
-  border: 1px solid #e7ecf2;
-  background: #fff;
+  width: 455px;
+  line-height: 2.5rem;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #f53b30;
 }
 
 #message {
-  width: 35%;
-  height: 148px;
-  flex-shrink: 0;
-  margin-top: 1.5%;
-  padding-left: 1%;
-  padding-bottom: 8%;
+  width: 455px;
+  padding: 10px 0 100px 10px;
   border-radius: 3px;
-  border: 1px solid #e7ecf2;
-  background: #fff;
+  border: 2px solid #f53b30;
 }
 
 .contact-middle-chec-lab {
   display: flex;
-  justify-content: baseline;
-  width: 35%;
-  height: 56px;
-  flex-shrink: 0;
-  margin: auto;
-  margin-top: 1%;
-  gap: 1%;
-}
-
-.contact-middle-checkbox {
-  width: 4%;
-}
-
-.contact-middle-label {
-  width: 96%;
-}
-
-.contact-middle-button {
-  margin-top: 1%;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
+.contact-middle-label {
+  width: 445px;
+  padding-top: 10px;
+  
+}
+
+.contact-middle-button {
+  text-align: center;
+  padding-top: 20px;
+}
+
 #contact-send-message {
-  width: 35%;
-  height: 50px;
-  flex-shrink: 0;
+  padding: 10px 165px 10px 165px;
   border-radius: 50px;
   border: none;
   background-color: #f53b30;
@@ -251,9 +249,12 @@
   line-height: 45px; /* 250% */
 }
 
+.contact-footer-top{
+padding-top: 120px;
+} 
+
 .contact-footer-top iframe {
-  width: 1260px;
+  width: 100%;
   height: 350px;
-  flex-shrink: 0;
-  margin-top: 11%;
+  border: none;
 }
