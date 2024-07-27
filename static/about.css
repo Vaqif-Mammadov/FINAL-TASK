@@ -51,7 +51,6 @@
   font-weight: 700;
   line-height: normal;
   gap: 50px;
-  
 }
 
 .navbar-right {
@@ -339,8 +338,6 @@ padding: 0 40px;
 }
 
 .middle-bottom-bottom-dots ul {
-  width: 100%;
-  height: 20%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -348,8 +345,7 @@ padding: 0 40px;
 }
 
 .middle-bottom-bottom-dots ul li {
-  width: 40px;
-  height: 40px;
+  padding: 10px 15px;
   border-radius: 50px;
   border: 1px solid #e7ecf2;
   background-color: #fff;
