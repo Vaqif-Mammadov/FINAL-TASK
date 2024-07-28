@@ -5,10 +5,10 @@
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 75vh;
 }
 
-.contact-navbar {
+.navbar {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,7 +16,7 @@
   padding-top: 50px;
 }
 
-.contact-navbar-left h3 {
+.navbar-left h3 {
   color: #fff;
   font-family: Barlow;
   font-size: 2rem;
@@ -26,7 +26,7 @@
   text-transform: capitalize;
 }
 
-.contact-navbar-left h6 {
+.navbar-left h6 {
   color: #e7ecf2;
   font-family: Barlow;
   font-size: 1rem;
@@ -36,7 +36,7 @@
   text-transform: uppercase;
 }
 
-.contact-nabvar-middle ul {
+.nabvar-middle ul {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -54,7 +54,7 @@
   display: none;
 }
 
-.contact-navbar-right {
+.navbar-right {
   color: #ffffff;
   display: flex;
   align-items: center;
@@ -115,11 +115,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   background-color: #fff;
   gap: 70px;
 }
 
 .contact-top-white-card {
+  width: calc((90% - (60px * (3 - 1))) / 3);
   margin-top: -70px;
   padding-left: 20px;
   padding-top: 20px;
@@ -129,7 +131,6 @@
   align-content: center;
   display: flex;
   flex-direction: column;
-  gap: 5px;
   z-index: 1;
 }
 
@@ -152,7 +153,6 @@
 }
 
 .contact-top-white-card p {
-  width: 300px;
   color: #636a75;
   font-family: Barlow;
   font-size: 1rem;
@@ -168,6 +168,7 @@
 }
 
 .contact-middle-send h2 {
+  margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 60px;
   text-align: center;
@@ -181,29 +182,16 @@
 }
 
 .contact-middle-form form {
+  width: 40%;
+  margin: 0 auto;
   display: flex;
-  align-items: center;
   flex-direction: column;
-  gap: 5px;
+  gap: 16px;
 }
 
-#name {
-  width: 455px;
-  line-height: 2.5rem;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  border: 2px solid #f53b30;
-}
-
-#email {
-  width: 455px;
-  line-height: 2.5rem;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  border: 2px solid #f53b30;
-}
+#name,
+#email,
 #website {
-  width: 455px;
   line-height: 2.5rem;
   padding-left: 10px;
   padding-bottom: 10px;
@@ -211,23 +199,16 @@
 }
 
 #message {
-  width: 455px;
   padding: 10px 0 100px 10px;
   border-radius: 3px;
   border: 2px solid #f53b30;
 }
 
-.contact-middle-chec-lab {
+.chec-lab {
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.contact-middle-label {
-  width: 445px;
-  padding-top: 10px;
-  
+  align-items: baseline;
+  gap: 10px;
 }
 
 .contact-middle-button {
@@ -236,7 +217,8 @@
 }
 
 #contact-send-message {
-  padding: 10px 165px 10px 165px;
+  width: 100%;
+  padding: 10px 0;
   border-radius: 50px;
   border: none;
   background-color: #f53b30;
@@ -249,9 +231,9 @@
   line-height: 45px; /* 250% */
 }
 
-.contact-footer-top{
-padding-top: 120px;
-} 
+.contact-footer-top {
+  padding-top: 120px;
+}
 
 .contact-footer-top iframe {
   width: 100%;

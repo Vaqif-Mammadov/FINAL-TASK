@@ -1,9 +1,12 @@
 /* HEADER */
 
-
-
 .bm-header {
-  background-image: linear-gradient(0deg, rgba(22, 19, 62, 0.36) 0%, rgba(22, 19, 62, 0.36) 100%), url("/media/blog-massonry/blog-massonry-head-bg.png");
+  background-image: linear-gradient(
+      0deg,
+      rgba(22, 19, 62, 0.36) 0%,
+      rgba(22, 19, 62, 0.36) 100%
+    ),
+    url("/media/blog-massonry/blog-massonry-head-bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -11,73 +14,15 @@
   height: 75vh;
 }
 
-.bm-navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 10px;
-  padding-top: 50px;
-}
 
-.bm-navbar-left h3 {
-  color: #fff;
-  font-family: Barlow;
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: capitalize;
-}
-
-.bm-navbar-left h6 {
-  color: #e7ecf2;
-  font-family: Barlow;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.bm-nabvar-middle ul {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  color: #fff;
-  text-align: center;
-  font-family: Barlow;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  gap: 50px;
-}
-
-.bm-navbar-right {
-  color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-  font-family: Barlow;
-  font-size: 1rem;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  gap: 10px;
-}
-
-.bm-navbar-right i{
-  height: 12px;
-}
 /* CARDS */
 
 .bm-cards {
   padding-top: 124px;
   display: flex;
-  justify-content: space-around;
+  gap: 60px;
+  display: flex;
   flex-wrap: wrap;
-  
 }
 
 .bm-card {
@@ -86,7 +31,11 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.bm-card-top {
   position: relative;
+  width: 100%;
 }
 
 .bm-img {
@@ -115,10 +64,10 @@
   background-color: rgba(22, 19, 62, 0.36);
 }
 
-.bm-card-bottom{
-display: flex;
-flex-direction: column;
-padding-top: 32px;
+.bm-card-bottom {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
 }
 
 .bm-card-info h3 {
