@@ -6,15 +6,15 @@
     display: none;
   }
 
-  .navbar-right {
-    display: none;
-  }
-
   #burger {
     color: #e7ecf2;
     font-size: 1.2rem;
     display: block;
+    padding-right: 20px;
   }
+
+ 
+
 
   .middle-top-left {
     width: 100%;

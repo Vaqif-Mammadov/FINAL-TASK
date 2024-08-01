@@ -12,6 +12,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
 </head>
 
@@ -32,12 +33,23 @@
                             <li>Blog</li>
                             <li>Contact</li>
                         </ul>
-                        <i id="burger" class="fa-solid fa-bars"></i>
                     </div>
                     <div class="navbar-right">
                         <p>+63-995-3959</p>
                         <span class="xett">|</span>
                         <i><img src="/media/about-us/navbar search_icon.svg" alt="search"></i>
+                    </div>
+                    <div class="drop">
+                        <a class="icon">
+                            <i id="burger" class="fa-solid fa-bars"></i>
+                        </a>
+                        <div id="dropmenu" class="dropdownMain">
+                            <a href="#home">Home</a>
+                            <a href="#pages">Pages</a>
+                            <a href="#pricing">Pricing</a>
+                            <a href="#blog">Blog</a>
+                            <a href="#contact">Contact</a>
+                        </div>
                     </div>
                 </div>
                 <div class="bg-image-text">
@@ -200,12 +212,11 @@
                 </div>
                 <div class="middle-bottom-bottom">
                     <div class="middle-bottom-bottom-dots">
-                        <ul>
-                            <li>1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <!-- <li><i><img src="/media/blog-massonry/icon-slider-angle-right.svg" alt=""></i></li> -->
+                        <ul id="slider">
+                            <a href="#">1</a>
+                            <a href="#">2</a>
+                            <a href="#">3</a>
+                            <a href="#">4</a>
                         </ul>
                     </div>
                 </div>
@@ -273,5 +284,6 @@
         </div>
     </div>
 </body>
+<script src="/static/main.js"></script>
 
 </html>
